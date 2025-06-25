@@ -1,0 +1,1 @@
+instance_create_layer(x,y,"part",obj_part_enemy);

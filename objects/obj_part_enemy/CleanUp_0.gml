@@ -1,0 +1,12 @@
+if(part_system_exists(system))
+{
+    part_system_destroy(system);
+}
+if(part_type_exists(type))
+{
+    part_type_destroy(type);
+}
+if(part_emitter_exists(system,emitter))
+{
+    part_emitter_destroy(system,emitter);
+}
