@@ -9,4 +9,4 @@ coll_proj = false;
 alpha_hit = 0;
 dead = false;
 
-sprite_index = choose(spr_carrot,spr_carrot);
+sprite_index = choose(spr_carrot,spr_beetroot,spr_mushroom,spr_pumpkin);
