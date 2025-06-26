@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.052879818,
+  "duration":0.09582766,
   "name":"snd_hurt_tomato_1",
   "parent":{
     "name":"Sounds",
