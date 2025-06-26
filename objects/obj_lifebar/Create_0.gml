@@ -1,4 +1,4 @@
-life_max = obj_tower.lifes;
+life_max = obj_tower.lifes_max;
 life = life_max;
 life_feedback = life_max;
 lifebar_w = 150;

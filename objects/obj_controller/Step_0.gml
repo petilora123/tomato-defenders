@@ -26,3 +26,10 @@ else
         audio_play_sound(snd_music_main, 1, true);
     }
 }
+
+if(!instance_exists(obj_mosca) && !instance_exists(obj_spaw_enemys))
+{
+    instance_create_depth(0,0,-9999,obj_fade_out);
+    
+    room_goto(rm_game_final);
+}

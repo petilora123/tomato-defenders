@@ -1,0 +1,1 @@
+y = 240 + sin(current_time * 0.0005) * 30;

@@ -1,4 +1,5 @@
-lifes = 20;
+lifes_max = 15;
+lifes = lifes_max;
 
 xscale = 1;
 yscale = 1;

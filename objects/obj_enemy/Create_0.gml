@@ -1,5 +1,6 @@
 move_spd = 0.3;
-life = 3;
+randomize();
+life = random_range(1,3);
 angle = 0;
 xscale = 1;
 yscale = 0;

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0932653,
+  "duration":0.4620635,
   "name":"snd_hurt",
   "parent":{
     "name":"Sounds",

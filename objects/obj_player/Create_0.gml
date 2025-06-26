@@ -46,7 +46,7 @@ create_proj = function()
         _proj.direction = _dir;
         _proj.speed = 12;
         randomize();
-        audio_play_sound(choose(snd_shoot,snd_shoot_1),0,0)
+        audio_play_sound(snd_shoot,0,0)
         
         alarm[0] = delay_shoot;
         

@@ -7,5 +7,6 @@ if(lifes <= 0)
 {
     image_index = 1;
     instance_create_layer(0,0,"transition",obj_fade_out);
+    
+    room_restart();
 }
-room_restart();
