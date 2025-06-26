@@ -1,4 +1,4 @@
-yscale = lerp(yscale,1,0.1);
+
 
 if(yscale > 0)
 {
@@ -19,5 +19,16 @@ if(life <= 0)
 {
     instance_destroy();
 }
+
+if(instance_exists(obj_mosca) && sprite_index == spr_moscao)
+{
+    xscale = 0.5;
+    yscale = 0.5;
+    yscale = lerp(yscale,0.5,0.1);
+}
+else 
+{
+    yscale = lerp(yscale,1,0.1);
+} 
 
 alpha_hit = lerp(alpha_hit,0,0.15);
