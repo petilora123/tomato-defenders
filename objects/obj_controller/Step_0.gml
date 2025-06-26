@@ -29,7 +29,7 @@ else
 
 if(!instance_exists(obj_mosca) && !instance_exists(obj_spaw_enemys))
 {
-    instance_create_depth(0,0,-9999,obj_fade_out);
+    instance_create_layer(0,0,"transition",obj_fade_out);
     
-    room_goto(rm_game_final);
+    alarm[0] = 1;
 }
